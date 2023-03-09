@@ -1,8 +1,8 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
-import { useRouter } from 'next/router'
 import React from 'react'
-import Layout from './components/Layout'
+import Layout from '../components/Layout'
+import { useRouter } from 'next/router'
 
 export const Locale = React.createContext<string|undefined>("es")
 
